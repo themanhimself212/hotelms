@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="mypane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="599.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hotel.logincontroller">
+   <children>
+      <TextField fx:id="username" layoutX="161.0" layoutY="176.0" prefHeight="40.0" prefWidth="277.0" promptText="ID" />
+      <PasswordField fx:id="Password" layoutX="162.0" layoutY="233.0" prefHeight="40.0" prefWidth="277.0" promptText="Password" />
+      <Button fx:id="LoginButton" layoutX="261.0" layoutY="343.0" mnemonicParsing="false" onAction="#loginAct" text="login" />
+      <ChoiceBox fx:id="choiceBox" layoutX="226.0" layoutY="288.0" prefWidth="150.0" styleClass="combo-box" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="210.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@nile_ritz_logo-removebg-preview.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
